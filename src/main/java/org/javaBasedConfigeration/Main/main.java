@@ -10,6 +10,9 @@ public class main {
         ApplicationContext context=new AnnotationConfigApplicationContext(SpringConfig.class);
 
         Student student = (Student) context.getBean("stdId1");
+        Student student1 = (Student) context.getBean("stdId2");
         student.display();
+        System.out.println("------------------");
+        student1.display();
     }
 }
