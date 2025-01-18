@@ -1,6 +1,6 @@
-package org.example.Mainn;
+package org.xmlBasedConfigeration.Mainn;
 
-import org.example.Stud.Student;
+import org.xmlBasedConfigeration.Beans.Student;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -5,14 +5,16 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean class="org.example.Stud.Student" id="stdId1">
+    <bean class="org.xmlBasedConfigeration.Beans.Student" id="stdId1">
         <property name="name" value="Sahil"/>
         <property name="rollno" value="101"/>
+        <property name="email" value="sahilnaik15@gmail.com"/>
     </bean>
 
-    <bean class="org.example.Stud.Student" id="stdId2">
+    <bean class="org.xmlBasedConfigeration.Beans.Student" id="stdId2">
         <property name="name" value="Goutam"/>
         <property name="rollno" value="102"/>
+        <property name="email" value="goutam18@gmail.com"/>
     </bean>
 
 </beans>

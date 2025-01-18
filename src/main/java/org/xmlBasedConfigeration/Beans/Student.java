@@ -1,8 +1,9 @@
-package org.example.Stud;
+package org.xmlBasedConfigeration.Beans;
 
 public class Student {
     private String name;
     private int rollno;
+    private String email;
 
     public String getName() {
         return name;
@@ -20,8 +21,17 @@ public class Student {
         this.rollno = rollno;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public void display(){
         System.out.println("Name :"+name);
         System.out.println("Roll no :"+rollno);
+        System.out.println("Email :"+email);
     }
 }
